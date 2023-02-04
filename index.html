@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses App</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="heading"> Expenses App</h2>
+        <p class="description">
+            A expence calculator to return number of notes to be returned for a given cash amount
+        </p>
+        <label for="bill-input">Bill amount:</label>
+        <input id="bill-input" type="text" />
+
+        <label for="cash-given">Cash given </label>
+        <input id="cash-given" type="text" />
+
+        <button id="check-button">Check</button>
+        <p class="message"></p>
+
+        <table class="table">
+            <caption>Return change</caption>
+            <tr>
+                <th>Number of Notes</th>
+                <th class="no-of-notes">0</th>
+                <th class="no-of-notes">0</th>
+                <th class="no-of-notes">0</th>
+                <th class="no-of-notes">0</th>
+                <th class="no-of-notes">0</th>
+                <th class="no-of-notes">0</th>
+                <th class="no-of-notes">0</th>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <th class="available-notes">2000</th>
+                <th class="available-notes">500</th>
+                <th class="available-notes">200</th>
+                <th class="available-notes">100</th>
+                <th class="available-notes">10</th>
+                <th class="available-notes">5</th>
+                <th class="available-notes">1</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
